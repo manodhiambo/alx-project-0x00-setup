@@ -12,7 +12,7 @@ const Landing: React.FC = () => {
         <Card />
         <Card />
       </div>
-
+      
       {/* Button examples with different sizes and shapes */}
       <div className="space-y-4">
         <h2 className="text-lg font-medium">Button Examples</h2>
@@ -25,7 +25,7 @@ const Landing: React.FC = () => {
             <Button title="Small Rounded Full" size="small" shape="rounded-full" />
           </div>
         </div>
-
+        
         <div className="space-y-2">
           <h3 className="text-md font-medium">Medium Buttons</h3>
           <div className="flex gap-4">
@@ -34,7 +34,7 @@ const Landing: React.FC = () => {
             <Button title="Medium Rounded Full" size="medium" shape="rounded-full" />
           </div>
         </div>
-
+        
         <div className="space-y-2">
           <h3 className="text-md font-medium">Large Buttons</h3>
           <div className="flex gap-4">
@@ -45,7 +45,7 @@ const Landing: React.FC = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Landing;
